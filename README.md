@@ -2,6 +2,10 @@
 
 The  **LLM  Selector**  is a tool to help you choose the most suitable Large Language Model (LLM) for your needs based on your system's hardware capabilities. It evaluates your machine's specifications and recommends LLMs that are compatible and likely to perform well.
 
+![screencapture-localhost-3000-2025-02-02-01_56_35](https://github.com/user-attachments/assets/88adca96-bb80-4e01-9620-de7a0a547582)
+![screencapture-localhost-3000-2025-02-02-01_56_47](https://github.com/user-attachments/assets/352ead8b-9879-4d89-ba08-b1847ce47119)
+![screencapture-localhost-3000-2025-02-02-01_56_55](https://github.com/user-attachments/assets/ffaf7d66-3fef-4dfc-817c-4e87d080293d)
+
 ## Key Features
 
 -   **Compatibility Check**: The tool assesses your system's memory, CPU cores, and GPU to recommend LLMs that will run smoothly.
