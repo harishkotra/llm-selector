@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LLM Selector
 
-## Getting Started
+The  **LLM  Selector**  is a tool to help you choose the most suitable Large Language Model (LLM) for your needs based on your system's hardware capabilities. It evaluates your machine's specifications and recommends LLMs that are compatible and likely to perform well.
 
-First, run the development server:
+## Key Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+-   **Compatibility Check**: The tool assesses your system's memory, CPU cores, and GPU to recommend LLMs that will run smoothly.
+-   **Performance Scores**: It provides performance scores for each LLM, giving you an idea of how well they are expected to perform on your system.
+-   **Variety of Options**: Offers a range of LLMs with different strengths and weaknesses, allowing you to select the one that best fits your requirements.
+-   **User-Friendly Interface**: The interface is simple and intuitive, making it easy to navigate and choose the right LLM.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Important Notes
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-   The tool is regularly updated with new LLMs and performance data based on Gaia's [node-configs repo](https://github.com/GaiaNet-AI/node-configs). 
+-   It serves as a starting point, and further research may be necessary to make the best decision for your specific use case.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Example Recommendations
 
-## Learn More
+Based on the provided hardware specifications (8 GB Memory, 8 CPU Cores, Apple M2 GPU), the tool suggests the following LLMs:
 
-To learn more about Next.js, take a look at the following resources:
+-   **Llama 3 8B Lexi Uncensored GGUF**
+-   **Llama 3 8b_Rust_8k_PT_RPL**
+-   **codegemma 7b it**
+-   **deepseek r1 distill llama 8b**
+    
+Each model comes with a performance score and an initialization command to help you get started.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This tool is ideal for users looking to optimize their LLM selection process based on their hardware capabilities.
